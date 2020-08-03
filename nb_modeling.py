@@ -73,4 +73,4 @@ def classifier(text):
     predict = Naive.predict(word_vec)
     return "Fake News Story" if predict[0] else "Real News Story"
 
-
+classifier(nyt)
